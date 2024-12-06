@@ -5,7 +5,6 @@ COPY app.py .
 
 RUN pip install flask
 
-ENV FLASK_APP=app.py
 EXPOSE 5000
 
 CMD ["python", "app.py"]
